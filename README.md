@@ -1,4 +1,4 @@
-# azure-notes
+# AWS to Azure comparison
 
 
 # Subscriptions and Accounts
