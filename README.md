@@ -16,7 +16,7 @@ Azure subscriptions are a grouping of resources with an assigned owner responsib
 Link: https://docs.microsoft.com/en-us/azure/architecture/aws-professional/accounts
 
 <br>
-# Compute
+# Compute<br>
 
 1. AWS EC2 == Azure VM
 1. AWS EBS == Azure Storage for VM Disks
