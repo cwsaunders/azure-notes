@@ -54,6 +54,11 @@ Link: https://docs.microsoft.com/en-us/azure/architecture/aws-professional/compu
 
 # Regions and Zones
 
+Diagram 2:<br>
+<img src="https://docs.microsoft.com/en-us/azure/architecture/resiliency/images/redundancy.svg"><br><br>
+
+In Azure, a region is divided into two or more Availability Zones. An Availability Zone corresponds with a physically isolated datacenter in the geographic region. Azure has numerous features for providing application redundancy at every level of potential failure, including availability sets, availability zones, and paired regions.<br><br>
+
 
 
 # Messaging services
