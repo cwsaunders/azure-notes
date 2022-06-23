@@ -38,4 +38,16 @@ Link: https://docs.microsoft.com/en-us/azure/architecture/aws-professional/compu
 
 # Networking
 
-1. 
+1. AWS ELB == Azure Load Balancer
+1. AWS ALB == Azure Application Gateway
+1. AWS Route53 == Azure DNS + Azure Traffic Manager
+1. AWS DirectConnect == Azure ExpressRoute
+1. AWS Route Tables == Azure User-Defined Routes
+1. AWS Private Link == Azure Private Link
+1. AWS VPC Peering == Azure VNet Peering
+1. AWS CloudFront == Azure CDN
+1. AWS VPC == Azure Virtual Network (VNet)
+1. AWS NAT Gateway == Azure Virtual Network NAT
+1. AWS VPN Gateway == Azure VPN Gateway
+1. AWS VPC Endpoint == Azure Private Endpoint
+1. AWS VPC Flow Logs == Azure Network Watcher
