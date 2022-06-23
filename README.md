@@ -92,3 +92,11 @@ Resources can be managed in these ways:<br>
 
 # Storage
 
+1. AWS S3 == Azure Blob Storage
+1. AWS EBS == Azure Managed Disks
+1. AWS EFS == Azure Files
+1. AWS S3 Infrequent Access == Azure Storage Cool Tier
+1. AWS S3 Glacier == Azure Storage Archive access tier
+1. AWS Backup == Azure Backup
+1. AWS Storage Gateway == Azure StorSimple
+1. AWS DataSync == Azure File Sync
