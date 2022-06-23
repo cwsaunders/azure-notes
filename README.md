@@ -60,10 +60,10 @@ Diagram 2:<br>
 In Azure, a region is divided into two or more Availability Zones. An Availability Zone corresponds with a physically isolated datacenter in the geographic region. Azure has numerous features for providing application redundancy at every level of potential failure, including availability sets, availability zones, and paired regions.<br><br>
 
 	            Availability Set	Availability Zone	Paired region 
-Scope of failure	Rack	        Datacenter	        Region<br>
-Request routing	Load Balancer	    Cross-zone Load Balancer	Traffic Manager<br>
-Network latency	Very low	        Low	                Mid to high<br>
-Virtual networking	VNet	        VNet	            Cross-region VNet peering<br>
+    Scope of failure	Rack	        Datacenter	        Region
+    Request routing	Load Balancer	    Cross-zone Load Balancer	Traffic Manager
+    Network latency	Very low	        Low	                Mid to high
+    Virtual networking	VNet	        VNet	            Cross-region VNet peering
 
 # Messaging services
 
