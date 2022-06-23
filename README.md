@@ -31,3 +31,11 @@ Link: https://docs.microsoft.com/en-us/azure/architecture/aws-professional/compu
 
 # Databases
 
+1. AWS RDS == SQL Database, Azure Database for MySQL, Azure Database for PostgreSQL, Azure Database for MariaDB
+1. AWS Aurora == Azure SQL Database (https://docs.microsoft.com/en-us/azure/azure-sql/database/serverless-tier-overview?view=azuresql)
+1. AWS DynamoDB / Amazon DocumentDB == Cosmos DB
+1. AWS ElastiCache == Cache for Redis
+
+# Networking
+
+1. 
