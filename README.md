@@ -90,3 +90,5 @@ Resources can be managed in these ways:<br>
 1. PowerShell
 1. Templates
 
+# Storage
+
