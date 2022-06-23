@@ -54,3 +54,12 @@ Link: https://docs.microsoft.com/en-us/azure/architecture/aws-professional/compu
 
 # Regions and Zones
 
+
+
+# Messaging services
+
+1. AWS SES does not have an Azure equivalent, you need a third party solution. (e.g. SendGrid)
+1. AWS SQS == Azure Queue Storage
+1. AWS SNS == Azure Service Bus
+1. AWS EventBridge == Azure Event Grid
+1. AWS Kinesis == Event Hubs
