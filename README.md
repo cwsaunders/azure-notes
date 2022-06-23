@@ -12,3 +12,21 @@ Azure subscriptions are a grouping of resources with an assigned owner responsib
 <b>Service Administrator.</b> This user has rights to create and manage resources in the subscription, but is not responsible for billing. By default, for a new subscription, the Account Administrator is also the Service Administrator. The account administrator can assign a separate user to the service administrator for managing the technical and operational aspects of a subscription. Only one service administrator is assigned per subscription.<br><br>
 
 <b>Co-administrator.</b> There can be multiple co-administrators assigned to a subscription. Co-administrators have the same access privileges as the Service Administrator, but they cannot change the service administrator.<br><br>
+
+Link: https://docs.microsoft.com/en-us/azure/architecture/aws-professional/accounts
+
+<br>
+# Compute
+
+1. AWS EC2 == Azure VM
+1. AWS EBS == Azure Storage for VM Disks
+1. AWS Lambda == Azure Functions, Azure Web-Jobs, and Azure Logic Apps
+1. AWS Autoscaling == Azure VM scaling, and Azure App Service Autoscale
+1. AWS EKS == Azure Kubernetes Service
+1. AWS AppMesh == Azure Service Fabric
+1. AWS ECS == Azure Container Instances
+
+Link: https://docs.microsoft.com/en-us/azure/architecture/aws-professional/compute<br><br>
+
+# Databases
+
