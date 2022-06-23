@@ -101,7 +101,7 @@ Resources can be managed in these ways:<br>
 1. AWS Storage Gateway == Azure StorSimple
 1. AWS DataSync == Azure File Sync
 
-# Azure Active Directory (AD)
+# Azure Active Directory (AD/AAD)
 
 Basic Tutorial: https://www.youtube.com/watch?v=AtAb_8Av4iU <br>
 More In-Depth Tutorial: https://www.youtube.com/watch?v=Ma7VAQE7ga4 (Useful times: 9:19-20:23 && 22:59-27:42)<br><br>
