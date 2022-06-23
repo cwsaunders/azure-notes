@@ -51,3 +51,6 @@ Link: https://docs.microsoft.com/en-us/azure/architecture/aws-professional/compu
 1. AWS VPN Gateway == Azure VPN Gateway
 1. AWS VPC Endpoint == Azure Private Endpoint
 1. AWS VPC Flow Logs == Azure Network Watcher
+
+# Regions and Zones
+
