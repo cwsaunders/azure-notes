@@ -139,3 +139,18 @@ Azure naming tool: https://github.com/microsoft/CloudAdoptionFramework/tree/mast
 Basic Tutorial: https://www.youtube.com/watch?v=AtAb_8Av4iU <br>
 More In-Depth Tutorial: https://www.youtube.com/watch?v=Ma7VAQE7ga4 (Useful times: 9:19-20:23 && 22:59-27:42)<br><br>
 
+# Billing
+
+Using tags for billing/cost calculating:<br>
+
+The API now supports cost management based on tags. "Today, filters support resource groups, instances and meters and with this release will also include tags. Scoping a budget to a tag or a set of tags will continue to leverage filters."<br>
+
+<br>
+Group by common properties to break down costs and identify top contributors. To group by resource tags, for example, select the tag key you want to group by. Costs are broken down by each tag value, with an extra segment for resources that don't have that tag applied.
+
+<br>
+<br>
+Links:<br>
+https://azure.microsoft.com/en-us/blog/announcing-the-support-for-tags-in-cost-management-apis/<br>
+https://docs.microsoft.com/en-us/azure/cost-management-billing/costs/quick-acm-cost-analysis<br>
+
