@@ -33,7 +33,7 @@ Each organization categorizes their applications differently. They often separat
 Management group hierarchies can be up to six levels deep. This depth gives you the flexibility to create a hierarchy that combines several of these strategies to meet your organizational needs. For example, the following diagram shows an organizational hierarchy that combines a business unit strategy with a geographic strategy.<br>
 <img src="https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/_images/decision-guides/decision-guide-subscriptions-hierarchy-mixed.png"><br>
 
-
+Link: https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/decision-guides/subscriptions/
 
 <br>
 
