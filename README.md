@@ -38,10 +38,11 @@ Link: https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/decision-g
 
 <h2>Creation/Policies:</h2><br>
 
-When you define your management group hierarchy, first create the root management group. Then move all existing subscriptions in the directory into the root management group. New subscriptions always go into the root management group initially. Later, you can move them to another management group.
+When you define your management group hierarchy, first create the root management group. Then move all existing subscriptions in the directory into the root management group. New subscriptions always go into the root management group initially. Later, you can move them to another management group.<br><br>
 
 What happens when you move a subscription to an existing management group? The subscription inherits the policies and role assignments from the management group hierarchy above it. Establish many subscriptions for your Azure workloads. Then create other subscriptions to contain Azure services that other subscriptions share.
-
+<br>
+Link: https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/organize-subscriptions
 <br>
 
 # Compute<br><br>
