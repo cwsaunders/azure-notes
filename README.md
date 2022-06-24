@@ -34,6 +34,13 @@ Management group hierarchies can be up to six levels deep. This depth gives you 
 <img src="https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/_images/decision-guides/decision-guide-subscriptions-hierarchy-mixed.png"><br>
 
 Link: https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/decision-guides/subscriptions/
+<br>
+
+<h2>Creation/Policies:</h2><br>
+
+When you define your management group hierarchy, first create the root management group. Then move all existing subscriptions in the directory into the root management group. New subscriptions always go into the root management group initially. Later, you can move them to another management group.
+
+What happens when you move a subscription to an existing management group? The subscription inherits the policies and role assignments from the management group hierarchy above it. Establish many subscriptions for your Azure workloads. Then create other subscriptions to contain Azure services that other subscriptions share.
 
 <br>
 
