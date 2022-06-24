@@ -117,6 +117,11 @@ Resources can be managed in these ways:<br>
 1. Command Line
 1. PowerShell
 1. Templates
+<br>
+<br>
+Azure naming tool: https://github.com/microsoft/CloudAdoptionFramework/tree/master/ready/AzNamingTool
+
+<br>
 
 # Storage
 
