@@ -15,6 +15,26 @@ Azure subscriptions are a grouping of resources with an assigned owner responsib
 
 Link: https://docs.microsoft.com/en-us/azure/architecture/aws-professional/accounts
 
+<h2>Strategies:</h2><br>
+1. Workload separation strategy:<br>
+An organization often adds new workloads to the cloud. Different ownership of subscriptions or basic separation of responsibility might result in multiple subscriptions in both the production and nonproduction management groups. This approach provides basic workload separation. But it doesn't take good advantage of the inheritance model to automatically apply policies across a subset of your subscriptions.
+<img src="https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/_images/ready/management-group-hierarchy-v2.png"><br><br>
+
+2. Application category strategy:<br>
+As an organization's cloud footprint grows, more subscriptions are typically created to support applications. These applications have fundamental differences in business criticality, compliance requirements, access controls, or data protection needs. Built from the initial production and nonproduction subscriptions, the subscriptions that support these application categories are organized under either the production or nonproduction management group as applicable. These subscriptions are typically owned and administered by the operations staff of a central IT team.<br>
+<img src="https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/_images/decision-guides/decision-guide-subscriptions-hierarchy.png"><br>
+Each organization categorizes their applications differently. They often separate subscriptions based on specific applications or services, or by application archetypes. This categorization is designed to support workloads that are likely to consume most of the resource limits of a subscription. It might also separate mission-critical workloads to ensure they don't compete with other workloads under these limits. Some workloads that might justify a separate subscription include:<br><br>
+
+1. Mission-critical workloads.
+1. Applications that are part of cost of goods sold (COGS) within your company. For example, every widget manufactured by a company contains an Azure IoT module that sends telemetry. This process might require a dedicated subscription for accounting or governance purposes to be part of COGS.
+1. Applications subject to regulatory requirements like HIPAA or FedRAMP.
+
+3. Mix Subscription Strategies:<br>
+Management group hierarchies can be up to six levels deep. This depth gives you the flexibility to create a hierarchy that combines several of these strategies to meet your organizational needs. For example, the following diagram shows an organizational hierarchy that combines a business unit strategy with a geographic strategy.<br>
+<img src="https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/_images/decision-guides/decision-guide-subscriptions-hierarchy-mixed.png"><br>
+
+
+
 <br>
 
 # Compute<br><br>
