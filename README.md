@@ -159,8 +159,10 @@ When you elevate your access, you will be assigned the User Access Administrator
 az rest --method post --url "/providers/Microsoft.Authorization/elevateAccess?api-version=2016-07-01"
 ```
 
-
 <br><br>Link: https://docs.microsoft.com/en-us/azure/role-based-access-control/elevate-access-global-admin
+
+<B>Azure RBAC vs. AD:</B><BR>
+While RBAC roles are used to manage access to Azure resources like VMs and storage accounts, Azure AD Administrator roles are used to manage Azure AD resources in a directory.<br><br>
 
 Basic Tutorial: https://www.youtube.com/watch?v=AtAb_8Av4iU <br>
 More In-Depth Tutorial: https://www.youtube.com/watch?v=Ma7VAQE7ga4 (Useful times: 9:19-20:23 && 22:59-27:42)<br><br>
