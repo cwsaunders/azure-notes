@@ -55,7 +55,14 @@ Management groups can support 6 levels of depth (not including root level or sub
 
 Azure custom role support for management groups is currently in preview with some limitations. You can define the management group scope in the Role Definition's assignable scope. That Azure custom role will then be available for assignment on that management group and any management group, subscription, resource group, or resource under it. This custom role will inherit down the hierarchy like any built-in role.<br><br>
 
-Link: https://docs.microsoft.com/en-us/azure/governance/management-groups/overview<br>
+Link: https://docs.microsoft.com/en-us/azure/governance/management-groups/overview<br><br>
+
+<b>Azure AD Elevated Access:</b><br>
+When you elevate your access, you will be assigned the User Access Administrator role in Azure at root scope (/). This allows you to view all resources and assign access in any subscription or management group in the directory. User Access Administrator role assignments can be removed using Azure PowerShell, Azure CLI, or the REST API.<br><br>
+
+<img src="https://docs.microsoft.com/en-us/azure/role-based-access-control/media/elevate-access-global-admin/elevate-access.png">
+
+<br><br>Link: https://docs.microsoft.com/en-us/azure/role-based-access-control/elevate-access-global-admin
 
 # Compute<br><br>
 
