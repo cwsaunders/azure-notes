@@ -1,7 +1,7 @@
 # AWS to Azure comparison
 
 
-# Subscriptions and Accounts
+# Subscriptions, Accounts, and Management Groups
 <b>Diagram 1:<br></b>
 <img src="https://docs.microsoft.com/en-us/azure/architecture/aws-professional/images/azure-aws-account-compare.png"><br>
 
@@ -44,6 +44,18 @@ What happens when you move a subscription to an existing management group? The s
 <br><br>
 Link: https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/organize-subscriptions
 <br>
+
+<br><b>Access by management group:</b><br>
+Another scenario where you would use management groups is to provide user access to multiple subscriptions. By moving multiple subscriptions under that management group, you can create one Azure role assignment on the management group, which will inherit that access to all the subscriptions. One assignment on the management group can enable users to have access to everything they need instead of scripting Azure RBAC over different subscriptions.<br><br>
+
+Each directory is given a single top-level management group called the root management group. The root management group is built into the hierarchy to have all management groups and subscriptions fold up to it. This root management group allows for global policies and Azure role assignments to be applied at the directory level. The Azure AD Global Administrator needs to elevate themselves to the User Access Administrator role of this root group initially. After elevating access, the administrator can assign any Azure role to other directory users or groups to manage the hierarchy. As administrator, you can assign your own account as owner of the root management group.<br><br>
+
+<B>Restrictions:</b><br>
+Management groups can support 6 levels of depth (not including root level or subscription level). Each management group and subscription can only support one parent.<br><br>
+
+Azure custom role support for management groups is currently in preview with some limitations. You can define the management group scope in the Role Definition's assignable scope. That Azure custom role will then be available for assignment on that management group and any management group, subscription, resource group, or resource under it. This custom role will inherit down the hierarchy like any built-in role.<br><br>
+
+Link: https://docs.microsoft.com/en-us/azure/governance/management-groups/overview<br>
 
 # Compute<br><br>
 
