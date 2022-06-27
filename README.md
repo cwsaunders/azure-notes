@@ -57,13 +57,6 @@ Azure custom role support for management groups is currently in preview with som
 
 Link: https://docs.microsoft.com/en-us/azure/governance/management-groups/overview<br><br>
 
-<b>Azure AD Elevated Access:</b><br>
-When you elevate your access, you will be assigned the User Access Administrator role in Azure at root scope (/). This allows you to view all resources and assign access in any subscription or management group in the directory. User Access Administrator role assignments can be removed using Azure PowerShell, Azure CLI, or the REST API.<br><br>
-
-<img src="https://docs.microsoft.com/en-us/azure/role-based-access-control/media/elevate-access-global-admin/elevate-access.png">
-
-<br><br>Link: https://docs.microsoft.com/en-us/azure/role-based-access-control/elevate-access-global-admin
-
 # Compute<br><br>
 
 1. AWS EC2 == Azure VM
@@ -154,6 +147,13 @@ Azure naming tool: https://github.com/microsoft/CloudAdoptionFramework/tree/mast
 1. AWS DataSync == Azure File Sync
 
 # Azure Active Directory (AD/AAD)
+
+<b>Azure AD Elevated Access:</b><br>
+When you elevate your access, you will be assigned the User Access Administrator role in Azure at root scope (/). This allows you to view all resources and assign access in any subscription or management group in the directory. User Access Administrator role assignments can be removed using Azure PowerShell, Azure CLI, or the REST API.<br><br>
+
+<img src="https://docs.microsoft.com/en-us/azure/role-based-access-control/media/elevate-access-global-admin/elevate-access.png">
+
+<br><br>Link: https://docs.microsoft.com/en-us/azure/role-based-access-control/elevate-access-global-admin
 
 Basic Tutorial: https://www.youtube.com/watch?v=AtAb_8Av4iU <br>
 More In-Depth Tutorial: https://www.youtube.com/watch?v=Ma7VAQE7ga4 (Useful times: 9:19-20:23 && 22:59-27:42)<br><br>
