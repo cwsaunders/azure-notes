@@ -196,3 +196,6 @@ The following diagram shows an example of a role assignment. In this example, th
 
 <img src="https://docs.microsoft.com/en-us/azure/role-based-access-control/media/overview/rbac-overview.png"><br><br>
 
+Role assignments are transitive for groups which means that if a user is a member of a group and that group is a member of another group that has a role assignment, the user will have the permissions in the role assignment.<br><br>
+
+<img src="https://docs.microsoft.com/en-us/azure/role-based-access-control/media/overview/rbac-groups-transitive.png">
