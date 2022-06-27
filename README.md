@@ -155,10 +155,10 @@ When you elevate your access, you will be assigned the User Access Administrator
 
 <B>Azure AD Elevated Access using Azure CLI:</B><BR>
 
-'''
+```
 az rest --method post --url "/providers/Microsoft.Authorization/elevateAccess?api-version=2016-07-01"
 Make the changes you need to make at elevated access.
-'''
+```
 
 
 <br><br>Link: https://docs.microsoft.com/en-us/azure/role-based-access-control/elevate-access-global-admin
