@@ -206,3 +206,22 @@ Azure RBAC supports deny assignments in a limited way. Deny assignments block us
 
 <br><br>Link: https://docs.microsoft.com/en-us/azure/role-based-access-control/overview<br><br>
 
+# Azure Policy
+
+<b>NOT the same thing as RBAC. Differences include:</b><br><br>
+
+There are a few key differences between Azure Policy and Azure role-based access control (Azure RBAC). Azure Policy evaluates state by examining properties on resources that are represented in Resource Manager and properties of some Resource Providers. Azure Policy doesn't restrict actions (also called operations). Azure Policy ensures that resource state is compliant to your business rules without concern for who made the change or who has permission to make a change. Some Azure Policy resources, such as policy definitions, initiative definitions, and assignments, are visible to all users. This design enables transparency to all users and services for what policy rules are set in their environment.<br><br>
+
+Azure RBAC focuses on managing user actions at different scopes. If control of an action is required, then Azure RBAC is the correct tool to use. Even if an individual has access to perform an action, if the result is a non-compliant resource, Azure Policy still blocks the create or update.<br><br>
+
+The combination of Azure RBAC and Azure Policy provides full scope control in Azure.<br><br>
+
+<b>Azure RBAC Permissions in Azure Policy:</b><br><br>
+
+Azure Policy has several permissions, known as operations, in two Resource Providers:<br>
+
+Microsoft.Authorization<br>
+Microsoft.PolicyInsights<br>
+Many built-in roles grant permission to Azure Policy resources. The Resource Policy Contributor role includes most Azure Policy operations. Owner has full rights. Both Contributor and Reader have access to all read Azure Policy operations.<br><br>
+
+Link: https://docs.microsoft.com/en-us/azure/governance/policy/overview<br><br>
