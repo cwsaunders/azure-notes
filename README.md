@@ -182,3 +182,17 @@ Links:<br>
 https://azure.microsoft.com/en-us/blog/announcing-the-support-for-tags-in-cost-management-apis/<br>
 https://docs.microsoft.com/en-us/azure/cost-management-billing/costs/quick-acm-cost-analysis<br>
 
+# RBAC
+
+<b>Scope</b> is the set of resources that the access applies to. When you assign a role, you can further limit the actions allowed by defining a scope. This is helpful if you want to make someone a Website Contributor, but only for one resource group.<br><br>
+
+In Azure, you can specify a scope at four levels: management group, subscription, resource group, or resource. Scopes are structured in a parent-child relationship. You can assign roles at any of these levels of scope.<br><br>
+
+A <b>role definition</b> is a collection of permissions. It's typically just called a role. A role definition lists the actions that can be performed, such as read, write, and delete. Roles can be high-level, like owner, or specific, like virtual machine reader.<br><br>
+
+A <b>role assignment</b> is the process of attaching a role definition to a user, group, service principal, or managed identity at a particular scope for the purpose of granting access. Access is granted by creating a role assignment, and access is revoked by removing a role assignment.<br><br>
+
+The following diagram shows an example of a role assignment. In this example, the Marketing group has been assigned the Contributor role for the pharma-sales resource group. This means that users in the Marketing group can create or manage any Azure resource in the pharma-sales resource group. Marketing users do not have access to resources outside the pharma-sales resource group, unless they are part of another role assignment.<br><br>
+
+<img src="https://docs.microsoft.com/en-us/azure/role-based-access-control/media/overview/rbac-overview.png"><br><br>
+
