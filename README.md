@@ -198,4 +198,12 @@ The following diagram shows an example of a role assignment. In this example, th
 
 Role assignments are transitive for groups which means that if a user is a member of a group and that group is a member of another group that has a role assignment, the user will have the permissions in the role assignment.<br><br>
 
-<img src="https://docs.microsoft.com/en-us/azure/role-based-access-control/media/overview/rbac-groups-transitive.png">
+<img src="https://docs.microsoft.com/en-us/azure/role-based-access-control/media/overview/rbac-groups-transitive.png"><br><br>
+
+RBAC is an additive model, so therefore if a user has multiple role assignments they gain permissions from all of them.<br><br>
+
+Azure RBAC supports deny assignments in a limited way. Deny assignments block users from performing specified actions even if a role assignment grants them access. Deny assignments take precedence over role assignments.<br><br>
+
+
+
+<br><br>Link: https://docs.microsoft.com/en-us/azure/role-based-access-control/overview<br><br>
