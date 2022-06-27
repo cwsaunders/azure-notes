@@ -157,7 +157,6 @@ When you elevate your access, you will be assigned the User Access Administrator
 
 ```
 az rest --method post --url "/providers/Microsoft.Authorization/elevateAccess?api-version=2016-07-01"
-Make the changes you need to make at elevated access.
 ```
 
 
