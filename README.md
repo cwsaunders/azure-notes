@@ -57,6 +57,8 @@ Azure custom role support for management groups is currently in preview with som
 
 Link: https://docs.microsoft.com/en-us/azure/governance/management-groups/overview<br><br>
 
+Subscription best practices tutorial: https://www.youtube.com/watch?v=LMAC0IIYSJM<br><br>
+
 # Compute<br><br>
 
 1. AWS EC2 == Azure VM
