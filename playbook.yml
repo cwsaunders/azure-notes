@@ -1,0 +1,15 @@
+---
+- name: Playbook for Azure testing
+  hosts: localhost
+  gather_facts: yes
+
+
+  tasks:
+    - name: create management group
+      azure.azcollection.azure_rm_managementgroup:
+        group_id: ChildGroup
+        type: /providers/Microsoft.Management/managementGroups/
+        name: ChildGroup
+        properties:
+          display_name: ChildGroup
+          parent_id: "/providers/Microsoft.Management/managementGroups/TestGroup"

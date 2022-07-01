@@ -227,3 +227,15 @@ Microsoft.PolicyInsights<br>
 Many built-in roles grant permission to Azure Policy resources. The Resource Policy Contributor role includes most Azure Policy operations. Owner has full rights. Both Contributor and Reader have access to all read Azure Policy operations.<br><br>
 
 Link: https://docs.microsoft.com/en-us/azure/governance/policy/overview<br><br>
+
+
+# ARM and Bicep
+
+<b>Rollback:</b><br>
+Deployments 'states' are saved upon deployment by name. This allows you to rollback to a specific state by name in case of a faulty deployment.<br><br>
+
+Link: https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/rollback-on-error<br><br>
+
+<b>Teardown:</b><br>
+Teardown consists of deleting the resource group.<br><br>
+
